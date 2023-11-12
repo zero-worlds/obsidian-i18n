@@ -1,12 +1,4 @@
 /*
-
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
-
-If your plugin does not need CSS, delete this file.
-
+此CSS文件将包含在您的插件中，并且当您的插件启用时，可在应用程序中使用。
+如果您的插件不需要CSS，请删除此文件。
 */
-
-.blue_btn{
-    background: #7992A0;
-}
