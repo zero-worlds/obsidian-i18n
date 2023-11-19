@@ -436,14 +436,14 @@ class TranslateModal extends Modal {
 						let res = fs.readFileSync(path.join(plugin.path, 'main.js')).toString();
 						// 对翻译表进行逐条翻译
 						for(const key in json_object['dict']){
-							res = res.replace(key, json_object['dict'][key]);
+							res = res.replaceAll(key, json_object['dict'][key]);
 						}
 						// 写入
 						fs.writeFileSync(path.join(plugin.path, 'main.js'), res, 'utf-8');
 
 						// 更新翻译状态
 						i18nstate.update(true, json_object['manifest'].version, plugin.version);
-
+						
 						// 刷新列表
 						this.reload();
 

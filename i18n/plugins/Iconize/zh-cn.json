@@ -38,11 +38,21 @@
         ".setDesc('Change the font size of the displayed icons.')":".setDesc('更改显示图标的字体大小')",
         ".setName('Icon color')":".setName('图标颜色')",
         ".setDesc('Change the color of the displayed icons.')":".setDesc('更改显示图标的颜色')",
+
+        "item.setTitle('Change icon')":"item.setTitle('更改图标')",
+        "defaultColorButton.setTooltip('Set color to the default one')":"defaultColorButton.setTooltip('将颜色设为默认颜色')",
+        "defaultColorButton.setButtonText('Default');":"defaultColorButton.setButtonText('默认');",
+        
         ".setButtonText('Default')":".setButtonText('默认')",
         ".setTooltip('Set color to the default one')":".setTooltip('将颜色设为默认颜色')",
+        "button.setButtonText('Save Changes')":"button.setButtonText('保存更改')",
+
+        "new obsidian.Notice('Custom rule updated.')":"new obsidian.Notice('更新了自定义规则')",
+        "btn.setTooltip('Remove the custom rule')":"btn.setTooltip('删除自定义规则')",
+        "new obsidian.Notice('Custom rule deleted.')":"new obsidian.Notice('自定义规则已删除')",
         ".setName('Extra margin (in pixels)')":".setName('额外边距(像素)')",
         ".setDesc('Change the margin of the icons.')":".setDesc('更改图标的边距')",
-        "defaultColorButton.setButtonText('Default');":"defaultColorButton.setButtonText('默认');",
+
         "containerEl.createEl('h3', { text: 'Custom Icon Rules' })":"containerEl.createEl('h3', { text: '自定义图标规则' })",
         ".setName('Add icon rule')":".setName('添加图标规则')",
         ".setDesc('Will add the icon based on the specific string.')":".setDesc('将根据特定字符串添加图标')",
@@ -51,7 +61,7 @@
         "new obsidian.Notice(`Seems like you do not have an icon pack installed. (${iconName})`, 5000);":"new obsidian.Notice(`看来你没有安装图标包. (${iconName})`, 5000);",
         "console.warn(`[iconize] icon with name \"${name}\" was not found (full path: ${fullPath}).`);":"console.warn(`[iconize] 带有名称的图标 \"${name}\" 未找到 (完整路径: ${fullPath}).`);",
         "changeIconBtn.setButtonText('Change icon');": "changeIconBtn.setButtonText('更改图标');",
-        "item.setTitle('Change icon');":"item.setTitle('更改图标');",
+        
         "item.setTitle('Remove inherit icon');":"item.setTitle('删除继承图标');",
         "item.setTitle('Inherit icon');":"item.setTitle('继承图标');",
         "item.setTitle('Remove icon');": "item.setTitle('删除图标');",
